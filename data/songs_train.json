@@ -1,0 +1,702 @@
+{
+  "schema_version": "1.0",
+  "description": "50 children's melodies used as training corpus for the signed-XOR memorizer.",
+  "notation": "Each bar is a space-separated string of tokens. A token = note letter (C D E F G A B) + optional accidental (# or ^ for sharp; _ prefix or b suffix for flat) + optional duration digit (1=quarter [default], 2=half, 3=dotted half, 4=whole). 'G G' = two onset quarter notes; 'G2' = one G half note (one onset + one sustain slot).",
+  "bar_size": 4,
+  "n_pitches": 12,
+  "songs": [
+    {
+      "name": "Twinkle Twinkle Little Star",
+      "bars": [
+        "C C G G",
+        "A A G2",
+        "F F E E",
+        "D D C2",
+        "G G F F",
+        "E E D2",
+        "G G F F",
+        "E E D2",
+        "C C G G",
+        "A A G2",
+        "F F E E",
+        "D D C2"
+      ]
+    },
+    {
+      "name": "Mary Had a Little Lamb",
+      "bars": [
+        "E D C D",
+        "E E E2",
+        "D D D2",
+        "E G G2",
+        "E D C D",
+        "E E E2",
+        "D D E D",
+        "C C C2"
+      ]
+    },
+    {
+      "name": "Hot Cross Buns",
+      "bars": [
+        "E D C C",
+        "E D C C",
+        "C C C C",
+        "D D D D",
+        "E D C C"
+      ]
+    },
+    {
+      "name": "Three Blind Mice",
+      "bars": [
+        "E D C C",
+        "E D C C",
+        "G G F E",
+        "G G F E",
+        "A A G2",
+        "F F E2",
+        "A A G2",
+        "F F E2"
+      ]
+    },
+    {
+      "name": "London Bridge Is Falling Down",
+      "bars": [
+        "G A G F",
+        "E F G2",
+        "D E F2",
+        "E F G2",
+        "G A G F",
+        "E F G2",
+        "D G E C",
+        "C4"
+      ]
+    },
+    {
+      "name": "Happy Birthday to You",
+      "bars": [
+        "C C D C",
+        "F2 E2",
+        "C C D C",
+        "G2 F2",
+        "C C C A",
+        "F E D2",
+        "A# A# A F",
+        "G2 F2"
+      ]
+    },
+    {
+      "name": "Row Row Row Your Boat",
+      "bars": [
+        "C C C D",
+        "E4",
+        "E D E F",
+        "G4",
+        "G G G E",
+        "E E G2",
+        "G F E D",
+        "C4"
+      ]
+    },
+    {
+      "name": "When the Saints Go Marching In",
+      "bars": [
+        "C E F G",
+        "G2 E2",
+        "C E F G",
+        "E D C2",
+        "G G G G",
+        "A A G G",
+        "E G F E",
+        "D2 C2"
+      ]
+    },
+    {
+      "name": "Yankee Doodle",
+      "bars": [
+        "C D E C",
+        "E D D2",
+        "C D E C",
+        "B4",
+        "C D E F",
+        "E E D C",
+        "D E D C",
+        "D2 C2"
+      ]
+    },
+    {
+      "name": "My Bonnie Lies Over the Ocean",
+      "bars": [
+        "G2 C C",
+        "E C D2",
+        "B2 G2",
+        "A4",
+        "G2 C C",
+        "E C D E",
+        "F3 D",
+        "C4"
+      ]
+    },
+    {
+      "name": "Clementine",
+      "bars": [
+        "C3 G",
+        "A A A2",
+        "G G G2",
+        "E4",
+        "G G A G",
+        "E D C2",
+        "C3 G",
+        "G4",
+        "C4"
+      ]
+    },
+    {
+      "name": "Skip to My Lou",
+      "bars": [
+        "G G G G",
+        "E E E E",
+        "F F F F",
+        "D D D D",
+        "G G E E",
+        "F F D D",
+        "G G G E",
+        "C C C C"
+      ]
+    },
+    {
+      "name": "Pop Goes the Weasel",
+      "bars": [
+        "C C G G",
+        "C C G G",
+        "C E G E",
+        "G A G2",
+        "F F A2",
+        "G G B2",
+        "C E G E",
+        "G4"
+      ]
+    },
+    {
+      "name": "This Old Man",
+      "bars": [
+        "G C C2",
+        "G C C2",
+        "A G F E",
+        "F G G2",
+        "C C C D",
+        "E E D E",
+        "F F E D",
+        "C4"
+      ]
+    },
+    {
+      "name": "The Muffin Man",
+      "bars": [
+        "G G A G",
+        "F G A2",
+        "G G A G",
+        "F2 G2",
+        "G A B A",
+        "G F E F",
+        "G A G F",
+        "E2 C2"
+      ]
+    },
+    {
+      "name": "If You're Happy and You Know It",
+      "bars": [
+        "C C G G",
+        "G F G G",
+        "A A G G",
+        "G F G G",
+        "C C G G",
+        "G F G G",
+        "C C C C",
+        "G G G G",
+        "G F E C"
+      ]
+    },
+    {
+      "name": "Head Shoulders Knees and Toes",
+      "bars": [
+        "C E G2",
+        "F E D2",
+        "C E G2",
+        "A G3",
+        "G F E F",
+        "G G G2",
+        "C E G2",
+        "F E D C"
+      ]
+    },
+    {
+      "name": "Wheels on the Bus",
+      "bars": [
+        "C C E G",
+        "G E C2",
+        "E E F G",
+        "G G E2",
+        "G A G F",
+        "E C C2",
+        "C D E F",
+        "G G C2"
+      ]
+    },
+    {
+      "name": "Do Your Ears Hang Low",
+      "bars": [
+        "C C E G",
+        "A G G2",
+        "G A G F",
+        "E E E2",
+        "C C E G",
+        "A G G2",
+        "G F E D",
+        "C4"
+      ]
+    },
+    {
+      "name": "Here We Go Round the Mulberry Bush",
+      "bars": [
+        "G G G A",
+        "G E C2",
+        "G G G A",
+        "G E C2",
+        "G A G F",
+        "E F G2",
+        "C D E F",
+        "G G C2"
+      ]
+    },
+    {
+      "name": "Itsy Bitsy Spider",
+      "bars": [
+        "C E G2",
+        "A G E2",
+        "F F E D",
+        "E4",
+        "E E F G",
+        "A G G2",
+        "G F E F",
+        "G G C2"
+      ]
+    },
+    {
+      "name": "Ring Around the Rosie",
+      "bars": [
+        "E E F G",
+        "E E F G",
+        "A A G G",
+        "A A G G",
+        "E E D D",
+        "C C C C"
+      ]
+    },
+    {
+      "name": "Jack and Jill",
+      "bars": [
+        "C C E G",
+        "A G G2",
+        "G F E D",
+        "C4",
+        "G G G A",
+        "G E D2",
+        "E F G A",
+        "G2 C2"
+      ]
+    },
+    {
+      "name": "Humpty Dumpty",
+      "bars": [
+        "C G E G",
+        "C G E2",
+        "C D E F",
+        "G4",
+        "G A G F",
+        "E F E D",
+        "C D E F",
+        "G G C2"
+      ]
+    },
+    {
+      "name": "Hickory Dickory Dock",
+      "bars": [
+        "C D E G",
+        "G E C2",
+        "G G G A",
+        "G4",
+        "A A G2",
+        "F E D2",
+        "G G E C",
+        "C4"
+      ]
+    },
+    {
+      "name": "Little Jack Horner",
+      "bars": [
+        "C E G2",
+        "C E G2",
+        "A G F E",
+        "D4",
+        "F F E2",
+        "G G D2",
+        "E E C2",
+        "C4"
+      ]
+    },
+    {
+      "name": "We Wish You a Merry Christmas",
+      "bars": [
+        "G C C D",
+        "C B A A",
+        "A D D E",
+        "D C B B",
+        "G G A F",
+        "G G G G",
+        "E C D B",
+        "C C C C"
+      ]
+    },
+    {
+      "name": "O Christmas Tree",
+      "bars": [
+        "C F F F",
+        "F G A F",
+        "B B B B",
+        "B C A A",
+        "G G G G",
+        "G A B G",
+        "A A A A",
+        "A B G G",
+        "C F F F",
+        "F G A F",
+        "G G F E",
+        "F F F F"
+      ]
+    },
+    {
+      "name": "Deck the Halls",
+      "bars": [
+        "G F E D",
+        "C D E C",
+        "D E F G",
+        "A4",
+        "G F E D",
+        "C D E C",
+        "D B G D",
+        "C4",
+        "F F E E",
+        "D D C2",
+        "E E F G",
+        "A4",
+        "G F E D",
+        "C D E C",
+        "D B G D",
+        "C4"
+      ]
+    },
+    {
+      "name": "Joy to the World",
+      "bars": [
+        "C B A G",
+        "F E D C",
+        "G A B C",
+        "D4",
+        "E F G F",
+        "E D C2",
+        "E F G F",
+        "E D C2"
+      ]
+    },
+    {
+      "name": "Auld Lang Syne",
+      "bars": [
+        "G2 C C",
+        "E C E D",
+        "E2 F2",
+        "A2 G2",
+        "G2 C C",
+        "E D E C",
+        "D E D C",
+        "C4"
+      ]
+    },
+    {
+      "name": "Battle Hymn of the Republic",
+      "bars": [
+        "G G G E",
+        "G G F2",
+        "E G G2",
+        "E G A2",
+        "G A G E",
+        "G G F2",
+        "E G E C",
+        "C4"
+      ]
+    },
+    {
+      "name": "She'll Be Coming Round the Mountain",
+      "bars": [
+        "G G C2",
+        "E G G2",
+        "A A G2",
+        "G E C2",
+        "G G F2",
+        "F E F2",
+        "G G E C",
+        "C4"
+      ]
+    },
+    {
+      "name": "Michael Row the Boat Ashore",
+      "bars": [
+        "C E G2",
+        "A G E2",
+        "G A G E",
+        "C4",
+        "E F G2",
+        "A G F2",
+        "E G E D",
+        "C4"
+      ]
+    },
+    {
+      "name": "Down in the Valley",
+      "bars": [
+        "G2 C C",
+        "C D E C",
+        "E F G A",
+        "G4",
+        "G A G F",
+        "E D E C",
+        "G4",
+        "C4"
+      ]
+    },
+    {
+      "name": "Polly Put the Kettle On",
+      "bars": [
+        "G G G E",
+        "C C D E",
+        "F E D E",
+        "F4",
+        "G G G E",
+        "C C D E",
+        "F E D C",
+        "C4"
+      ]
+    },
+    {
+      "name": "Oranges and Lemons",
+      "bars": [
+        "E F E D",
+        "C D E G",
+        "F E D E",
+        "C4",
+        "G A G F",
+        "E F G2",
+        "E F E D",
+        "C4"
+      ]
+    },
+    {
+      "name": "A mi burro le duele la cabeza  (infantil ES)",
+      "bars": [
+        "G2 E2",
+        "G2 E2",
+        "F2 E2",
+        "D2 C2",
+        "C D E F",
+        "G G G G",
+        "A G F E",
+        "D2 C2"
+      ]
+    },
+    {
+      "name": "Tengo una muñeca",
+      "bars": [
+        "G G G A",
+        "G E3",
+        "C E G A",
+        "G4",
+        "F F F G",
+        "F E3",
+        "D E F D",
+        "C4",
+        "G G G A",
+        "G E3",
+        "C E G A",
+        "G4",
+        "F F F G",
+        "F E3",
+        "D E F D",
+        "C4"
+      ]
+    },
+    {
+      "name": "Debajo de un botón",
+      "bars": [
+        "C C D E",
+        "F G A B",
+        "A A G G",
+        "G G G G",
+        "G G F F",
+        "F E E E",
+        "E D E D",
+        "C C C C",
+        "C C D E",
+        "F G A B",
+        "A A G G",
+        "G G G G",
+        "G G F F",
+        "F E E E",
+        "E D E D",
+        "C C C C"
+      ]
+    },
+    {
+      "name": "El patio de mi casa",
+      "bars": [
+        "G C C C",
+        "E E C C",
+        "C E G E",
+        "G C C C",
+        "G G G E",
+        "G A G2",
+        "G A G F",
+        "E F E D",
+        "D E D C",
+        "C D E F",
+        "G G C C"
+      ]
+    },
+    {
+      "name": "Frère Jacques",
+      "bars": [
+        "C D E C",
+        "C D E C",
+        "E F G2",
+        "E F G2",
+        "G A G F",
+        "E2 C2",
+        "G A G F",
+        "E2 C2",
+        "C2 G2",
+        "C4",
+        "C2 G2",
+        "C4"
+      ]
+    },
+    {
+      "name": "Old MacDonald Had a Farm",
+      "bars": [
+        "C C C G",
+        "A A G G",
+        "E E D D",
+        "C C C C",
+        "G G C C",
+        "C C C G",
+        "E E D D",
+        "C C C C",
+        "C C C G",
+        "A A G G",
+        "E E D D",
+        "C C C C"
+      ]
+    },
+    {
+      "name": "Bingo",
+      "bars": [
+        "G C C G",
+        "G A A G",
+        "G C C D",
+        "D E C2",
+        "E E F F",
+        "F D D2",
+        "E E C2",
+        "D D D C"
+      ]
+    },
+    {
+      "name": "A-Tisket A-Tasket",
+      "bars": [
+        "G2 E2",
+        "A G E2",
+        "G G E A",
+        "G E3",
+        "G2 E2",
+        "A G E2",
+        "G G E A",
+        "G E3"
+      ]
+    },
+    {
+      "name": "Polly Wolly Doodle",
+      "bars": [
+        "G G G G",
+        "E E C C",
+        "D D D E",
+        "C4",
+        "C E G2",
+        "C E G2",
+        "G G G G",
+        "E E C C",
+        "D D D E",
+        "C4"
+      ]
+    },
+    {
+      "name": "Los pollitos dicen",
+      "bars": [
+        "C D E F",
+        "G G G G",
+        "A A G2",
+        "A A G2",
+        "F G F G",
+        "E4",
+        "D E D E",
+        "C4"
+      ]
+    },
+    {
+      "name": "Arroz con leche",
+      "bars": [
+        "G C E C",
+        "C C C C",
+        "G C C E",
+        "D D D D",
+        "E F E D",
+        "C B3",
+        "B G A B",
+        "B C3"
+      ]
+    },
+    {
+      "name": "Que llueva que llueva",
+      "bars": [
+        "G G E G",
+        "E C3",
+        "G G E G",
+        "E C3",
+        "A A G F",
+        "E D3",
+        "G G F E",
+        "D C3"
+      ]
+    },
+    {
+      "name": "Alouette",
+      "bars": [
+        "C C D E",
+        "C E D2",
+        "C C D E",
+        "C E D G",
+        "G C E2",
+        "G C E2",
+        "E2 E2",
+        "A G F E",
+        "D C3"
+      ]
+    }
+  ]
+}

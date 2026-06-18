@@ -1,0 +1,354 @@
+{
+  "encoding": "factored",
+  "capacity": [
+    {
+      "L": 64,
+      "TF": 0.476,
+      "TF_sd": 0.033,
+      "AR": 0.267,
+      "AR_sd": 0.017,
+      "recog": 1.0,
+      "nov": "4-6"
+    },
+    {
+      "L": 128,
+      "TF": 0.75,
+      "TF_sd": 0.067,
+      "AR": 0.41,
+      "AR_sd": 0.025,
+      "recog": 1.0,
+      "nov": "12-12"
+    },
+    {
+      "L": 256,
+      "TF": 1.0,
+      "TF_sd": 0.0,
+      "AR": 0.963,
+      "AR_sd": 0.027,
+      "recog": 1.0,
+      "nov": "12-12"
+    },
+    {
+      "L": 512,
+      "TF": 1.0,
+      "TF_sd": 0.0,
+      "AR": 1.0,
+      "AR_sd": 0.0,
+      "recog": 1.0,
+      "nov": "12-12"
+    },
+    {
+      "L": 1024,
+      "TF": 1.0,
+      "TF_sd": 0.0,
+      "AR": 1.0,
+      "AR_sd": 0.0,
+      "recog": 1.0,
+      "nov": "12-12"
+    }
+  ],
+  "ablation_L256": [
+    {
+      "config": "full",
+      "TF_mean": 1.0,
+      "TF_sd": 0.0,
+      "AR_mean": 0.963,
+      "AR_sd": 0.027,
+      "recog": 1.0,
+      "nov_min": 12,
+      "nov_max": 12
+    },
+    {
+      "config": "dale=False",
+      "TF_mean": 0.537,
+      "TF_sd": 0.044,
+      "AR_mean": 0.31,
+      "AR_sd": 0.034,
+      "recog": 1.0,
+      "nov_min": 3,
+      "nov_max": 5
+    },
+    {
+      "config": "multisyn=False",
+      "TF_mean": 0.998,
+      "TF_sd": 0.002,
+      "AR_mean": 0.811,
+      "AR_sd": 0.045,
+      "recog": 1.0,
+      "nov_min": 12,
+      "nov_max": 12
+    },
+    {
+      "config": "consolidation=False",
+      "TF_mean": 0.996,
+      "TF_sd": 0.003,
+      "AR_mean": 0.905,
+      "AR_sd": 0.046,
+      "recog": 1.0,
+      "nov_min": 12,
+      "nov_max": 12
+    },
+    {
+      "config": "ltd=False",
+      "TF_mean": 0.641,
+      "TF_sd": 0.047,
+      "AR_mean": 0.365,
+      "AR_sd": 0.011,
+      "recog": 1.0,
+      "nov_min": 9,
+      "nov_max": 12
+    },
+    {
+      "config": "kwta=False",
+      "TF_mean": 0.571,
+      "TF_sd": 0.011,
+      "AR_mean": 0.353,
+      "AR_sd": 0.019,
+      "recog": 0.88,
+      "nov_min": 6,
+      "nov_max": 11
+    },
+    {
+      "config": "sparse_wiring=False",
+      "TF_mean": 1.0,
+      "TF_sd": 0.0,
+      "AR_mean": 0.992,
+      "AR_sd": 0.011,
+      "recog": 1.0,
+      "nov_min": 12,
+      "nov_max": 12
+    },
+    {
+      "config": "div_inh=False",
+      "TF_mean": 0.994,
+      "TF_sd": 0.008,
+      "AR_mean": 0.898,
+      "AR_sd": 0.064,
+      "recog": 1.0,
+      "nov_min": 12,
+      "nov_max": 12
+    },
+    {
+      "config": "classifier=False",
+      "TF_mean": 1.0,
+      "TF_sd": 0.0,
+      "AR_mean": 0.981,
+      "AR_sd": 0.006,
+      "recog": null,
+      "nov_min": 12,
+      "nov_max": 12
+    },
+    {
+      "config": "+encoder_learn",
+      "TF_mean": 0.391,
+      "TF_sd": 0.021,
+      "AR_mean": 0.251,
+      "AR_sd": 0.012,
+      "recog": 0.8,
+      "nov_min": 0,
+      "nov_max": 3
+    }
+  ],
+  "wiring_L256": {
+    "d1.0_s0": {
+      "density": 1.0,
+      "seed": 0,
+      "TF": 1.0,
+      "AR": 1.0
+    },
+    "d1.0_s1": {
+      "density": 1.0,
+      "seed": 1,
+      "TF": 1.0,
+      "AR": 0.975
+    },
+    "d1.0_s2": {
+      "density": 1.0,
+      "seed": 2,
+      "TF": 1.0,
+      "AR": 1.0
+    },
+    "d0.25_s0": {
+      "density": 0.25,
+      "seed": 0,
+      "TF": 1.0,
+      "AR": 1.0
+    },
+    "d0.25_s1": {
+      "density": 0.25,
+      "seed": 1,
+      "TF": 1.0,
+      "AR": 1.0
+    },
+    "d0.25_s2": {
+      "density": 0.25,
+      "seed": 2,
+      "TF": 1.0,
+      "AR": 1.0
+    },
+    "d0.15_s0": {
+      "density": 0.15,
+      "seed": 0,
+      "TF": 1.0,
+      "AR": 1.0
+    },
+    "d0.15_s1": {
+      "density": 0.15,
+      "seed": 1,
+      "TF": 1.0,
+      "AR": 0.987
+    },
+    "d0.15_s2": {
+      "density": 0.15,
+      "seed": 2,
+      "TF": 1.0,
+      "AR": 1.0
+    },
+    "d0.1_s0": {
+      "density": 0.1,
+      "seed": 0,
+      "TF": 1.0,
+      "AR": 0.927
+    },
+    "d0.1_s1": {
+      "density": 0.1,
+      "seed": 1,
+      "TF": 1.0,
+      "AR": 0.968
+    },
+    "d0.1_s2": {
+      "density": 0.1,
+      "seed": 2,
+      "TF": 1.0,
+      "AR": 0.993
+    },
+    "d0.05_s0": {
+      "density": 0.05,
+      "seed": 0,
+      "TF": 0.95,
+      "AR": 0.76
+    },
+    "d0.05_s1": {
+      "density": 0.05,
+      "seed": 1,
+      "TF": 0.948,
+      "AR": 0.742
+    },
+    "d0.05_s2": {
+      "density": 0.05,
+      "seed": 2,
+      "TF": 1.0,
+      "AR": 0.968
+    }
+  },
+  "encoding_grid_summary": {
+    "attack_real_L128": {
+      "TF": 0.716,
+      "AR": 0.369,
+      "AR_sd": 0.019,
+      "n": 5
+    },
+    "attack_random_L128": {
+      "TF": 0.996,
+      "AR": 0.501,
+      "AR_sd": 0.021,
+      "n": 5
+    },
+    "dual_real_L128": {
+      "TF": 0.921,
+      "AR": 0.495,
+      "AR_sd": 0.038,
+      "n": 5
+    },
+    "dual_random_L128": {
+      "TF": 1.0,
+      "AR": 0.518,
+      "AR_sd": 0.04,
+      "n": 5
+    },
+    "factored_real_L128": {
+      "TF": 0.77,
+      "AR": 0.41,
+      "AR_sd": 0.022,
+      "n": 5
+    },
+    "factored_random_L128": {
+      "TF": 0.986,
+      "AR": 0.518,
+      "AR_sd": 0.039,
+      "n": 5
+    },
+    "attack_real_L256": {
+      "TF": 1.0,
+      "AR": 0.677,
+      "AR_sd": 0.017,
+      "n": 5
+    },
+    "attack_random_L256": {
+      "TF": 1.0,
+      "AR": 0.629,
+      "AR_sd": 0.015,
+      "n": 5
+    },
+    "dual_real_L256": {
+      "TF": 1.0,
+      "AR": 0.74,
+      "AR_sd": 0.032,
+      "n": 5
+    },
+    "dual_random_L256": {
+      "TF": 1.0,
+      "AR": 0.699,
+      "AR_sd": 0.015,
+      "n": 5
+    },
+    "factored_real_L256": {
+      "TF": 1.0,
+      "AR": 0.938,
+      "AR_sd": 0.04,
+      "n": 5
+    },
+    "factored_random_L256": {
+      "TF": 1.0,
+      "AR": 0.97,
+      "AR_sd": 0.032,
+      "n": 5
+    },
+    "attack_real_L512": {
+      "TF": 1.0,
+      "AR": 0.888,
+      "AR_sd": 0.049,
+      "n": 5
+    },
+    "attack_random_L512": {
+      "TF": 1.0,
+      "AR": 0.892,
+      "AR_sd": 0.027,
+      "n": 5
+    },
+    "dual_real_L512": {
+      "TF": 1.0,
+      "AR": 0.991,
+      "AR_sd": 0.008,
+      "n": 5
+    },
+    "dual_random_L512": {
+      "TF": 1.0,
+      "AR": 0.953,
+      "AR_sd": 0.025,
+      "n": 5
+    },
+    "factored_real_L512": {
+      "TF": 1.0,
+      "AR": 1.0,
+      "AR_sd": 0.0,
+      "n": 5
+    },
+    "factored_random_L512": {
+      "TF": 1.0,
+      "AR": 1.0,
+      "AR_sd": 0.0,
+      "n": 5
+    }
+  }
+}

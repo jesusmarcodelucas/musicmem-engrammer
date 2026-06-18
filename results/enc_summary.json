@@ -1,0 +1,110 @@
+{
+  "attack_real_L128": {
+    "TF": 0.716,
+    "AR": 0.369,
+    "AR_sd": 0.019,
+    "n": 5
+  },
+  "attack_random_L128": {
+    "TF": 0.996,
+    "AR": 0.501,
+    "AR_sd": 0.021,
+    "n": 5
+  },
+  "dual_real_L128": {
+    "TF": 0.921,
+    "AR": 0.495,
+    "AR_sd": 0.038,
+    "n": 5
+  },
+  "dual_random_L128": {
+    "TF": 1.0,
+    "AR": 0.518,
+    "AR_sd": 0.04,
+    "n": 5
+  },
+  "factored_real_L128": {
+    "TF": 0.77,
+    "AR": 0.41,
+    "AR_sd": 0.022,
+    "n": 5
+  },
+  "factored_random_L128": {
+    "TF": 0.986,
+    "AR": 0.518,
+    "AR_sd": 0.039,
+    "n": 5
+  },
+  "attack_real_L256": {
+    "TF": 1.0,
+    "AR": 0.677,
+    "AR_sd": 0.017,
+    "n": 5
+  },
+  "attack_random_L256": {
+    "TF": 1.0,
+    "AR": 0.629,
+    "AR_sd": 0.015,
+    "n": 5
+  },
+  "dual_real_L256": {
+    "TF": 1.0,
+    "AR": 0.74,
+    "AR_sd": 0.032,
+    "n": 5
+  },
+  "dual_random_L256": {
+    "TF": 1.0,
+    "AR": 0.699,
+    "AR_sd": 0.015,
+    "n": 5
+  },
+  "factored_real_L256": {
+    "TF": 1.0,
+    "AR": 0.938,
+    "AR_sd": 0.04,
+    "n": 5
+  },
+  "factored_random_L256": {
+    "TF": 1.0,
+    "AR": 0.97,
+    "AR_sd": 0.032,
+    "n": 5
+  },
+  "attack_real_L512": {
+    "TF": 1.0,
+    "AR": 0.888,
+    "AR_sd": 0.049,
+    "n": 5
+  },
+  "attack_random_L512": {
+    "TF": 1.0,
+    "AR": 0.892,
+    "AR_sd": 0.027,
+    "n": 5
+  },
+  "dual_real_L512": {
+    "TF": 1.0,
+    "AR": 0.991,
+    "AR_sd": 0.008,
+    "n": 5
+  },
+  "dual_random_L512": {
+    "TF": 1.0,
+    "AR": 0.953,
+    "AR_sd": 0.025,
+    "n": 5
+  },
+  "factored_real_L512": {
+    "TF": 1.0,
+    "AR": 1.0,
+    "AR_sd": 0.0,
+    "n": 5
+  },
+  "factored_random_L512": {
+    "TF": 1.0,
+    "AR": 1.0,
+    "AR_sd": 0.0,
+    "n": 5
+  }
+}

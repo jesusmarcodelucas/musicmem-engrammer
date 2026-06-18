@@ -1,0 +1,177 @@
+{
+  "schema_version": "1.0",
+  "description": "12 held-out melodies (mostly Spanish-language) used to test novelty detection.",
+  "notation": "Each bar is a space-separated string of tokens. A token = note letter (C D E F G A B) + optional accidental (# or ^ for sharp; _ prefix or b suffix for flat) + optional duration digit (1=quarter [default], 2=half, 3=dotted half, 4=whole). 'G G' = two onset quarter notes; 'G2' = one G half note (one onset + one sustain slot).",
+  "bar_size": 4,
+  "n_pitches": 12,
+  "songs": [
+    {
+      "name": "Dónde están las llaves (matarile)  (infantil ES)",
+      "bars": [
+        "G G G F",
+        "E F G2",
+        "A A G F",
+        "E2 D2",
+        "G G G G",
+        "A2 G2",
+        "F F E F",
+        "G2 F2"
+      ]
+    },
+    {
+      "name": "Estaba una pastora  (infantil ES)",
+      "bars": [
+        "C E G2",
+        "G E F D",
+        "E D E D",
+        "E F E2",
+        "C E G2",
+        "G E F D",
+        "E D C D",
+        "E4"
+      ]
+    },
+    {
+      "name": "Al pasar la barca  (infantil ES)",
+      "bars": [
+        "G G G E",
+        "E2 F2",
+        "F D3",
+        "E3 F",
+        "G2 F2",
+        "E2 D2",
+        "C3 G",
+        "G E C2"
+      ]
+    },
+    {
+      "name": "Cucú cantaba la rana  (infantil ES)",
+      "bars": [
+        "E2 G2",
+        "G F F E",
+        "D2 E2",
+        "G G F E",
+        "E2 G2",
+        "A G F E",
+        "D2 C2",
+        "E G F E",
+        "D2 C2"
+      ]
+    },
+    {
+      "name": "Debajo un botón (Martín)  (infantil ES)",
+      "bars": [
+        "C2 D2",
+        "E2 D2",
+        "C2 D2",
+        "E2 C2",
+        "C2 D2",
+        "E2 D2",
+        "E2 F2",
+        "G G G G"
+      ]
+    },
+    {
+      "name": "Me casó mi madre (chiquita y bonita)  (infantil ES)",
+      "bars": [
+        "G E E G",
+        "A G G F",
+        "D D F G",
+        "E4",
+        "E2 G2",
+        "F E D2",
+        "C4",
+        "G E D C"
+      ]
+    },
+    {
+      "name": "Quisiera ser tan alta como la luna  (infantil ES)",
+      "bars": [
+        "E F G2",
+        "A G F E",
+        "D E D C",
+        "G G F E",
+        "D C C G",
+        "F E3",
+        "E F G2",
+        "A G F E",
+        "D E D C"
+      ]
+    },
+    {
+      "name": "La Tarara (vestido blanco)  (infantil ES)",
+      "bars": [
+        "G G F E",
+        "D E F G",
+        "F E D2",
+        "G G G G",
+        "A G F E",
+        "D C3",
+        "E F G2",
+        "A G F E"
+      ]
+    },
+    {
+      "name": "Dónde vas Alfonso XII  (infantil ES)",
+      "bars": [
+        "E D C2",
+        "D E F2",
+        "E D E D",
+        "C D E D",
+        "C D E F",
+        "E D C2",
+        "D E F E",
+        "D C3",
+        "E G G F",
+        "E D C2"
+      ]
+    },
+    {
+      "name": "Estaba el señor don Gato  (infantil ES)",
+      "bars": [
+        "C C D E",
+        "F E D C",
+        "E E F G",
+        "G F E D",
+        "G F E D",
+        "D C3",
+        "E E F G",
+        "G F E C"
+      ]
+    },
+    {
+      "name": "El cocherito leré",
+      "bars": [
+        "G G G E",
+        "F E D D",
+        "E E E C",
+        "D2 C2",
+        "G G G E",
+        "F E D D",
+        "E E E C",
+        "D2 C2",
+        "G G G E",
+        "F E D D",
+        "E E E C",
+        "D2 C2",
+        "G G G E",
+        "F E D D",
+        "E E E C",
+        "F E D C"
+      ]
+    },
+    {
+      "name": "Yo tenía diez perritos  (infantil ES)",
+      "bars": [
+        "G2 E2",
+        "G E E G",
+        "G F3",
+        "G F3",
+        "E E F G",
+        "G F E2",
+        "D D E F",
+        "E D C2"
+      ]
+    }
+  ]
+}
