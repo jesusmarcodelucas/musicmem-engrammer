@@ -1,0 +1,359 @@
+results/songs_results_pitch.pkl seeds [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29] (n=30)
+
+A: detection and sparsity (frozen latent layer)
+  ('A', 'max', 0.0, 8) auc=0.505±0.008 auc_errp=1.000±0.000 auc_err=0.997±0.001 active_train_med=92.600±0.853 active_novel_med=95.167±1.662 frac_train_sparse=0.004±0.001 retention=0.858±0.002 free_recall=0.607±0.005
+  ('A', 'max', 0.02, 8) auc=0.679±0.009 auc_errp=1.000±0.000 auc_err=0.997±0.001 active_train_med=92.700±0.861 active_novel_med=130.583±2.354 frac_train_sparse=0.004±0.001 retention=0.858±0.002 free_recall=0.607±0.005
+  ('A', 'max', 0.05, 8) auc=0.853±0.007 auc_errp=1.000±0.000 auc_err=0.997±0.001 active_train_med=93.000±0.862 active_novel_med=207.217±3.410 frac_train_sparse=0.004±0.001 retention=0.858±0.002 free_recall=0.607±0.005
+  ('A', 'max', 0.1, 8) auc=0.952±0.005 auc_errp=1.000±0.000 auc_err=0.997±0.001 active_train_med=93.100±0.851 active_novel_med=392.750±5.842 frac_train_sparse=0.004±0.001 retention=0.858±0.002 free_recall=0.607±0.005
+  ('A', 'max', 0.2, 8) auc=0.983±0.003 auc_errp=1.000±0.000 auc_err=0.997±0.001 active_train_med=93.433±0.836 active_novel_med=973.500±10.526 frac_train_sparse=0.004±0.001 retention=0.858±0.002 free_recall=0.607±0.005
+  ('A', 'kth', 0.0, 8) auc=0.500±0.000 auc_errp=1.000±0.000 auc_err=0.997±0.001 active_train_med=8.000±0.000 active_novel_med=8.000±0.000 frac_train_sparse=1.000±0.000 retention=0.858±0.002 free_recall=0.607±0.005
+  ('A', 'kth', 0.02, 8) auc=0.980±0.002 auc_errp=1.000±0.000 auc_err=0.997±0.001 active_train_med=8.000±0.000 active_novel_med=13.100±0.113 frac_train_sparse=0.992±0.001 retention=0.858±0.002 free_recall=0.607±0.005
+  ('A', 'kth', 0.05, 8) auc=0.996±0.001 auc_errp=1.000±0.000 auc_err=0.997±0.001 active_train_med=8.000±0.000 active_novel_med=27.400±0.278 frac_train_sparse=0.982±0.002 retention=0.858±0.002 free_recall=0.607±0.005
+  ('A', 'kth', 0.1, 8) auc=0.999±0.001 auc_errp=1.000±0.000 auc_err=0.997±0.001 active_train_med=8.000±0.000 active_novel_med=77.833±0.824 frac_train_sparse=0.978±0.003 retention=0.858±0.002 free_recall=0.607±0.005
+  ('A', 'kth', 0.2, 8) auc=1.000±0.000 auc_errp=1.000±0.000 auc_err=0.997±0.001 active_train_med=8.000±0.000 active_novel_med=336.350±3.858 frac_train_sparse=0.976±0.003 retention=0.858±0.002 free_recall=0.607±0.005
+  ('A', 'kth', 0.2, 8, 'C- fed back') auc=0.998±0.001 auc_errp=1.000±0.000 auc_err=0.997±0.001 active_train_med=8.000±0.000 active_novel_med=343.667±3.467 frac_train_sparse=0.795±0.009 retention=0.858±0.002 free_recall=0.607±0.005
+  ('A', 'kth', 0.05, 4) auc=0.994±0.001 auc_errp=1.000±0.000 auc_err=0.997±0.001 active_train_med=4.000±0.000 active_novel_med=15.500±0.236 frac_train_sparse=0.971±0.003 retention=0.833±0.003 free_recall=0.580±0.006
+  ('A', 'kth', 0.05, 16) auc=0.993±0.001 auc_errp=0.995±0.001 auc_err=0.993±0.001 active_train_med=16.000±0.000 active_novel_med=45.233±0.468 frac_train_sparse=0.992±0.001 retention=0.867±0.002 free_recall=0.620±0.005
+  ('A', 'kth', 0.05, 32) auc=0.981±0.002 auc_errp=0.983±0.002 auc_err=0.983±0.002 active_train_med=32.000±0.000 active_novel_med=65.133±0.802 frac_train_sparse=0.993±0.001 retention=0.870±0.002 free_recall=0.642±0.005
+
+B: dopamine-triggered allocation, 10 passes per song
+  ('B', 10, 0.05, 'shuffled') retention=0.612±0.003 free_recall=0.457±0.004 acquisition=0.985±0.001 auc=0.836±0.007 frac_train_sparse=0.776±0.005 trig_rate=0.161±0.001 used=1120.200±3.772 noisy_trig_rate=0.164±0.003 noisy_new_units=135.600±3.230 retention_after_noise=0.791±0.003
+  ('B', 10, 0.05, 'novelty') retention=0.845±0.003 free_recall=0.735±0.005 acquisition=0.978±0.001 auc=0.940±0.004 frac_train_sparse=0.971±0.002 trig_rate=0.161±0.001 used=1626.867±4.482 noisy_trig_rate=0.083±0.003 noisy_new_units=116.767±3.720 retention_after_noise=0.871±0.003
+  ('B', 10, 0.2, 'shuffled') retention=0.645±0.003 free_recall=0.489±0.004 acquisition=0.984±0.001 auc=0.962±0.003 frac_train_sparse=0.702±0.005 trig_rate=0.244±0.001 used=1324.600±3.881 noisy_trig_rate=0.247±0.004 noisy_new_units=186.233±3.885 retention_after_noise=0.812±0.002
+  ('B', 10, 0.2, 'novelty') retention=0.924±0.002 free_recall=0.868±0.004 acquisition=0.979±0.001 auc=0.977±0.001 frac_train_sparse=0.968±0.002 trig_rate=0.244±0.001 used=1808.267±2.253 noisy_trig_rate=0.114±0.003 noisy_new_units=131.133±2.897 retention_after_noise=0.931±0.002
+  ('B', 10, 0.2, 'error-count shuffled') retention=0.688±0.003 free_recall=0.542±0.005 acquisition=0.983±0.001 auc=0.978±0.002 frac_train_sparse=0.845±0.004 trig_rate=0.405±0.001 used=1637.467±3.631 noisy_trig_rate=0.408±0.006 noisy_new_units=249.700±5.085 retention_after_noise=0.836±0.003
+  ('B', 10, 0.2, 'error count') retention=0.966±0.001 free_recall=0.935±0.003 acquisition=0.992±0.001 auc=0.979±0.001 frac_train_sparse=0.978±0.001 trig_rate=0.405±0.001 used=1927.000±1.643 noisy_trig_rate=0.999±0.000 noisy_new_units=359.767±2.079 retention_after_noise=0.960±0.001
+  ('B', 10, 0.2, 'none') retention=0.361±0.003 free_recall=0.271±0.004 acquisition=0.990±0.001 auc=0.786±0.006 frac_train_sparse=0.354±0.008 trig_rate=0.000±0.000 used=107.067±0.931 noisy_trig_rate=0.000±0.000 noisy_new_units=10.533±0.745 retention_after_noise=0.400±0.003
+  ('B', 10, 0.2, 'every step') retention=0.949±0.001 free_recall=0.898±0.003 acquisition=0.979±0.001 auc=0.973±0.002 frac_train_sparse=0.986±0.001 trig_rate=1.000±0.000 used=2185.433±2.428 noisy_trig_rate=1.000±0.000 noisy_new_units=228.333±1.976 retention_after_noise=0.957±0.001
+  ('B', 10, 0.2, 'novelty+gain') retention=0.874±0.002 free_recall=0.777±0.006 acquisition=0.951±0.002 auc=0.974±0.001 frac_train_sparse=0.944±0.002 trig_rate=0.122±0.001 used=1520.967±3.556 noisy_trig_rate=0.162±0.003 noisy_new_units=109.667±2.413 retention_after_noise=0.901±0.002
+  ('B', 10, 0.2, 'frozen') retention=0.858±0.002 free_recall=0.607±0.005 acquisition=1.000±0.000 auc=1.000±0.000 frac_train_sparse=0.976±0.003 trig_rate=0.000±0.000 used=1137.433±3.732
+    novelty - shuffled (lam=0.05) retention: +0.233 [+0.225,+0.241]
+    novelty - shuffled (lam=0.05) free_recall: +0.278 [+0.266,+0.290]
+    novelty - shuffled (lam=0.2) retention: +0.280 [+0.272,+0.288]
+    novelty - shuffled (lam=0.2) free_recall: +0.379 [+0.369,+0.391]
+    novelty - none (lam=0.2) retention: +0.564 [+0.556,+0.571]
+    novelty - none (lam=0.2) free_recall: +0.598 [+0.589,+0.607]
+    novelty - every step (lam=0.2) retention: -0.024 [-0.030,-0.020]
+    novelty - every step (lam=0.2) free_recall: -0.030 [-0.042,-0.019]
+    novelty - frozen (lam=0.2) retention: +0.067 [+0.061,+0.072]
+    novelty - frozen (lam=0.2) free_recall: +0.262 [+0.248,+0.275]
+    novelty - novelty+gain (lam=0.2) retention: +0.050 [+0.044,+0.056]
+    novelty - novelty+gain (lam=0.2) free_recall: +0.092 [+0.080,+0.104]
+    novelty - error count (lam=0.2) retention: -0.042 [-0.047,-0.037]
+    novelty - error count (lam=0.2) free_recall: -0.066 [-0.076,-0.057]
+    novelty - error-count shuffled (lam=0.2) retention: +0.237 [+0.230,+0.244]
+    novelty - error-count shuffled (lam=0.2) free_recall: +0.326 [+0.313,+0.339]
+    error count - its shuffle retention: +0.279 [+0.273,+0.285]
+
+B: dopamine-triggered allocation, 2 passes per song
+  ('B', 2, 0.2, 'shuffled') retention=0.644±0.002 free_recall=0.466±0.004 acquisition=0.950±0.001 auc=0.969±0.002 frac_train_sparse=0.725±0.005 trig_rate=0.876±0.002 used=846.800±2.164
+  ('B', 2, 0.2, 'novelty') retention=0.668±0.003 free_recall=0.490±0.005 acquisition=0.954±0.001 auc=0.974±0.002 frac_train_sparse=0.770±0.003 trig_rate=0.876±0.002 used=856.367±1.567
+  ('B', 2, 0.2, 'error-count shuffled') retention=0.672±0.003 free_recall=0.490±0.005 acquisition=0.949±0.002 auc=0.973±0.003 frac_train_sparse=0.773±0.003 trig_rate=0.991±0.001 used=860.567±1.395
+  ('B', 2, 0.2, 'error count') retention=0.674±0.003 free_recall=0.493±0.005 acquisition=0.949±0.001 auc=0.976±0.003 frac_train_sparse=0.776±0.003 trig_rate=0.991±0.001 used=860.967±1.530
+  ('B', 2, 0.2, 'none') retention=0.367±0.003 free_recall=0.268±0.004 acquisition=0.946±0.001 auc=0.791±0.007 frac_train_sparse=0.356±0.009 trig_rate=0.000±0.000 used=121.733±0.893
+  ('B', 2, 0.2, 'every step') retention=0.674±0.003 free_recall=0.490±0.005 acquisition=0.949±0.001 auc=0.976±0.003 frac_train_sparse=0.776±0.003 trig_rate=1.000±0.000 used=861.133±1.547
+  ('B', 2, 0.2, 'novelty+gain') retention=0.615±0.003 free_recall=0.456±0.004 acquisition=0.907±0.001 auc=0.939±0.004 frac_train_sparse=0.846±0.003 trig_rate=0.457±0.002 used=667.033±1.345
+  ('B', 2, 0.2, 'frozen') retention=0.857±0.002 free_recall=0.604±0.005 acquisition=0.999±0.000 auc=0.972±0.002 frac_train_sparse=0.467±0.005 trig_rate=0.000±0.000 used=1137.433±3.732
+    novelty - shuffled (lam=0.2) retention: +0.023 [+0.016,+0.031]
+    novelty - shuffled (lam=0.2) free_recall: +0.024 [+0.013,+0.035]
+    novelty - none (lam=0.2) retention: +0.301 [+0.291,+0.310]
+    novelty - none (lam=0.2) free_recall: +0.222 [+0.211,+0.233]
+    novelty - every step (lam=0.2) retention: -0.006 [-0.011,-0.001]
+    novelty - every step (lam=0.2) free_recall: -0.000 [-0.009,+0.008]
+    novelty - frozen (lam=0.2) retention: -0.189 [-0.196,-0.181]
+    novelty - frozen (lam=0.2) free_recall: -0.114 [-0.129,-0.101]
+    novelty - novelty+gain (lam=0.2) retention: +0.053 [+0.045,+0.060]
+    novelty - novelty+gain (lam=0.2) free_recall: +0.034 [+0.021,+0.046]
+    novelty - error count (lam=0.2) retention: -0.007 [-0.011,-0.002]
+    novelty - error count (lam=0.2) free_recall: -0.003 [-0.011,+0.005]
+    novelty - error-count shuffled (lam=0.2) retention: -0.004 [-0.008,+0.001]
+    novelty - error-count shuffled (lam=0.2) free_recall: -0.001 [-0.011,+0.011]
+    error count - its shuffle retention: +0.003 [-0.001,+0.008]
+
+C: retention against pulse rate (thresholds on nu and on sum C+)
+  ('C', 'nu', 0.5) trig_rate=0.181±0.001 retention=0.861±0.003 free_recall=0.748±0.005 used=1648.267±4.420
+  ('C', 'nu', 1) trig_rate=0.146±0.001 retention=0.805±0.003 free_recall=0.672±0.005 used=1501.633±6.080
+  ('C', 'nu', 2) trig_rate=0.085±0.001 retention=0.672±0.005 free_recall=0.531±0.006 used=1079.733±12.092
+  ('C', 'nu', 4) trig_rate=0.015±0.000 retention=0.482±0.003 free_recall=0.345±0.003 used=313.467±4.545
+  ('C', 'err', 1) trig_rate=0.362±0.001 retention=0.962±0.001 free_recall=0.923±0.003 used=1899.600±1.703
+  ('C', 'err', 2) trig_rate=0.316±0.001 retention=0.956±0.001 free_recall=0.915±0.003 used=1870.333±2.007
+  ('C', 'err', 3) trig_rate=0.264±0.001 retention=0.921±0.002 free_recall=0.833±0.004 used=1780.567±3.206
+  ('C', 'err', 5) trig_rate=0.204±0.001 retention=0.808±0.003 free_recall=0.673±0.005 used=1530.367±5.042
+
+Probes: fraction flagged by nu>0 / by sum(C+)>0, and mean excess units
+  ('A', 'kth', 0.05, 8)
+    ('delete', 1)                nu: 0.806  sumC+: 0.856  excess=9.21
+    ('delete', 2)                nu: 0.907  sumC+: 0.936  excess=12.50
+    ('delete', 3)                nu: 0.946  sumC+: 0.967  excess=14.26
+    ('delete', 4)                nu: 0.962  sumC+: 0.975  excess=15.05
+    ('delete', 6)                nu: 0.983  sumC+: 0.988  excess=15.70
+    ('add', 1)                   nu: 0.915  sumC+: 0.995  excess=10.67
+    ('add', 2)                   nu: 0.980  sumC+: 0.999  excess=15.67
+    ('add', 3)                   nu: 0.994  sumC+: 1.000  excess=18.93
+    ('add', 4)                   nu: 0.997  sumC+: 1.000  excess=21.56
+    ('add', 6)                   nu: 1.000  sumC+: 1.000  excess=25.92
+    ('subst', 1)                 nu: 0.960  sumC+: 0.995  excess=13.94
+    ('subst', 2)                 nu: 0.994  sumC+: 1.000  excess=18.81
+    ('subst', 3)                 nu: 0.999  sumC+: 1.000  excess=21.11
+    ('subst', 4)                 nu: 1.000  sumC+: 1.000  excess=22.08
+    ('subst', 6)                 nu: 1.000  sumC+: 1.000  excess=23.12
+    ('subst', 9)                 nu: 1.000  sumC+: 1.000  excess=23.57
+    ('subst', 12)                nu: 1.000  sumC+: 1.000  excess=23.54
+    ('learned', 0)               nu: 0.018  sumC+: 0.024  excess=0.03
+    ('heldout', '0.00-0.50')     nu: nan  sumC+: nan  n=0
+    ('heldout', '0.50-0.65')     nu: 0.998  sumC+: 1.000  n=36
+    ('heldout', '0.65-0.80')     nu: 0.991  sumC+: 0.999  n=32
+    ('heldout', '0.80-1.00')     nu: 0.967  sumC+: 1.000  n=4
+  ('A', 'kth', 0.2, 8)
+    ('delete', 1)                nu: 0.854  sumC+: 0.856  excess=113.37
+    ('delete', 2)                nu: 0.935  sumC+: 0.936  excess=162.44
+    ('delete', 3)                nu: 0.967  sumC+: 0.967  excess=185.99
+    ('delete', 4)                nu: 0.975  sumC+: 0.975  excess=193.76
+    ('delete', 6)                nu: 0.988  sumC+: 0.988  excess=190.71
+    ('add', 1)                   nu: 0.991  sumC+: 0.995  excess=139.47
+    ('add', 2)                   nu: 0.999  sumC+: 0.999  excess=231.45
+    ('add', 3)                   nu: 1.000  sumC+: 1.000  excess=301.04
+    ('add', 4)                   nu: 1.000  sumC+: 1.000  excess=363.34
+    ('add', 6)                   nu: 1.000  sumC+: 1.000  excess=474.71
+    ('subst', 1)                 nu: 0.994  sumC+: 0.995  excess=193.38
+    ('subst', 2)                 nu: 1.000  sumC+: 1.000  excess=283.45
+    ('subst', 3)                 nu: 1.000  sumC+: 1.000  excess=327.19
+    ('subst', 4)                 nu: 1.000  sumC+: 1.000  excess=349.69
+    ('subst', 6)                 nu: 1.000  sumC+: 1.000  excess=370.78
+    ('subst', 9)                 nu: 1.000  sumC+: 1.000  excess=378.52
+    ('subst', 12)                nu: 1.000  sumC+: 1.000  excess=379.94
+    ('learned', 0)               nu: 0.024  sumC+: 0.024  excess=0.14
+    ('heldout', '0.00-0.50')     nu: nan  sumC+: nan  n=0
+    ('heldout', '0.50-0.65')     nu: 1.000  sumC+: 1.000  n=36
+    ('heldout', '0.65-0.80')     nu: 0.999  sumC+: 0.999  n=32
+    ('heldout', '0.80-1.00')     nu: 1.000  sumC+: 1.000  n=4
+  ('A', 'kth', 0.2, 8, 'C- fed back')
+    ('delete', 1)                nu: 0.978  sumC+: 0.856  excess=122.41
+    ('delete', 2)                nu: 0.996  sumC+: 0.936  excess=174.24
+    ('delete', 3)                nu: 0.999  sumC+: 0.967  excess=200.03
+    ('delete', 4)                nu: 0.999  sumC+: 0.975  excess=207.90
+    ('delete', 6)                nu: 1.000  sumC+: 0.988  excess=202.73
+    ('add', 1)                   nu: 0.997  sumC+: 0.995  excess=144.65
+    ('add', 2)                   nu: 1.000  sumC+: 0.999  excess=237.60
+    ('add', 3)                   nu: 1.000  sumC+: 1.000  excess=307.71
+    ('add', 4)                   nu: 1.000  sumC+: 1.000  excess=370.50
+    ('add', 6)                   nu: 1.000  sumC+: 1.000  excess=481.20
+    ('subst', 1)                 nu: 1.000  sumC+: 0.995  excess=202.65
+    ('subst', 2)                 nu: 1.000  sumC+: 1.000  excess=293.37
+    ('subst', 3)                 nu: 1.000  sumC+: 1.000  excess=336.03
+    ('subst', 4)                 nu: 1.000  sumC+: 1.000  excess=356.39
+    ('subst', 6)                 nu: 1.000  sumC+: 1.000  excess=374.24
+    ('subst', 9)                 nu: 1.000  sumC+: 1.000  excess=379.76
+    ('subst', 12)                nu: 1.000  sumC+: 1.000  excess=380.18
+    ('learned', 0)               nu: 0.205  sumC+: 0.024  excess=2.69
+    ('heldout', '0.00-0.50')     nu: nan  sumC+: nan  n=0
+    ('heldout', '0.50-0.65')     nu: 1.000  sumC+: 1.000  n=36
+    ('heldout', '0.65-0.80')     nu: 0.999  sumC+: 0.999  n=32
+    ('heldout', '0.80-1.00')     nu: 1.000  sumC+: 1.000  n=4
+  ('B', 10, 0.05, 'shuffled')
+    ('delete', 1)                nu: 0.229  sumC+: 0.536  excess=0.34
+    ('delete', 2)                nu: 0.224  sumC+: 0.539  excess=0.35
+    ('delete', 3)                nu: 0.235  sumC+: 0.526  excess=0.36
+    ('delete', 4)                nu: 0.241  sumC+: 0.519  excess=0.37
+    ('delete', 6)                nu: 0.224  sumC+: 0.441  excess=0.37
+    ('add', 1)                   nu: 0.278  sumC+: 0.998  excess=0.44
+    ('add', 2)                   nu: 0.341  sumC+: 1.000  excess=0.55
+    ('add', 3)                   nu: 0.389  sumC+: 1.000  excess=0.66
+    ('add', 4)                   nu: 0.453  sumC+: 1.000  excess=0.80
+    ('add', 6)                   nu: 0.546  sumC+: 1.000  excess=1.08
+    ('subst', 1)                 nu: 0.300  sumC+: 0.997  excess=0.47
+    ('subst', 2)                 nu: 0.402  sumC+: 1.000  excess=0.69
+    ('subst', 3)                 nu: 0.512  sumC+: 1.000  excess=0.99
+    ('subst', 4)                 nu: 0.645  sumC+: 1.000  excess=1.48
+    ('subst', 6)                 nu: 0.882  sumC+: 1.000  excess=3.27
+    ('subst', 9)                 nu: 0.982  sumC+: 1.000  excess=11.04
+    ('subst', 12)                nu: 0.993  sumC+: 1.000  excess=16.38
+    ('learned', 0)               nu: 0.224  sumC+: 0.533  excess=0.35
+    ('heldout', '0.00-0.50')     nu: nan  sumC+: nan  n=0
+    ('heldout', '0.50-0.65')     nu: 0.898  sumC+: 0.994  n=36
+    ('heldout', '0.65-0.80')     nu: 0.720  sumC+: 0.999  n=32
+    ('heldout', '0.80-1.00')     nu: 0.633  sumC+: 1.000  n=4
+  ('B', 10, 0.05, 'novelty')
+    ('delete', 1)                nu: 0.044  sumC+: 0.205  excess=0.08
+    ('delete', 2)                nu: 0.059  sumC+: 0.217  excess=0.11
+    ('delete', 3)                nu: 0.080  sumC+: 0.234  excess=0.15
+    ('delete', 4)                nu: 0.111  sumC+: 0.261  excess=0.21
+    ('delete', 6)                nu: 0.178  sumC+: 0.339  excess=0.33
+    ('add', 1)                   nu: 0.043  sumC+: 1.000  excess=0.07
+    ('add', 2)                   nu: 0.057  sumC+: 1.000  excess=0.11
+    ('add', 3)                   nu: 0.071  sumC+: 1.000  excess=0.13
+    ('add', 4)                   nu: 0.096  sumC+: 1.000  excess=0.19
+    ('add', 6)                   nu: 0.143  sumC+: 1.000  excess=0.28
+    ('subst', 1)                 nu: 0.066  sumC+: 0.999  excess=0.12
+    ('subst', 2)                 nu: 0.133  sumC+: 1.000  excess=0.26
+    ('subst', 3)                 nu: 0.266  sumC+: 1.000  excess=0.56
+    ('subst', 4)                 nu: 0.483  sumC+: 1.000  excess=1.22
+    ('subst', 6)                 nu: 0.905  sumC+: 1.000  excess=4.26
+    ('subst', 9)                 nu: 0.986  sumC+: 1.000  excess=11.24
+    ('subst', 12)                nu: 0.992  sumC+: 1.000  excess=15.38
+    ('learned', 0)               nu: 0.029  sumC+: 0.196  excess=0.05
+    ('heldout', '0.00-0.50')     nu: nan  sumC+: nan  n=0
+    ('heldout', '0.50-0.65')     nu: 0.987  sumC+: 1.000  n=36
+    ('heldout', '0.65-0.80')     nu: 0.835  sumC+: 1.000  n=32
+    ('heldout', '0.80-1.00')     nu: 0.458  sumC+: 1.000  n=4
+  ('B', 10, 0.2, 'shuffled')
+    ('delete', 1)                nu: 0.316  sumC+: 0.404  excess=0.90
+    ('delete', 2)                nu: 0.318  sumC+: 0.394  excess=0.94
+    ('delete', 3)                nu: 0.320  sumC+: 0.390  excess=0.99
+    ('delete', 4)                nu: 0.323  sumC+: 0.383  excess=1.04
+    ('delete', 6)                nu: 0.301  sumC+: 0.332  excess=1.13
+    ('add', 1)                   nu: 0.454  sumC+: 0.998  excess=1.23
+    ('add', 2)                   nu: 0.559  sumC+: 1.000  excess=1.60
+    ('add', 3)                   nu: 0.645  sumC+: 1.000  excess=2.04
+    ('add', 4)                   nu: 0.716  sumC+: 1.000  excess=2.54
+    ('add', 6)                   nu: 0.821  sumC+: 1.000  excess=3.82
+    ('subst', 1)                 nu: 0.484  sumC+: 0.997  excess=1.37
+    ('subst', 2)                 nu: 0.646  sumC+: 1.000  excess=2.17
+    ('subst', 3)                 nu: 0.799  sumC+: 1.000  excess=3.70
+    ('subst', 4)                 nu: 0.910  sumC+: 1.000  excess=6.32
+    ('subst', 6)                 nu: 0.997  sumC+: 1.000  excess=20.00
+    ('subst', 9)                 nu: 1.000  sumC+: 1.000  excess=126.38
+    ('subst', 12)                nu: 1.000  sumC+: 1.000  excess=221.38
+    ('learned', 0)               nu: 0.298  sumC+: 0.398  excess=0.85
+    ('heldout', '0.00-0.50')     nu: nan  sumC+: nan  n=0
+    ('heldout', '0.50-0.65')     nu: 0.994  sumC+: 0.996  n=36
+    ('heldout', '0.65-0.80')     nu: 0.977  sumC+: 0.996  n=32
+    ('heldout', '0.80-1.00')     nu: 0.900  sumC+: 1.000  n=4
+  ('B', 10, 0.2, 'novelty')
+    ('delete', 1)                nu: 0.053  sumC+: 0.115  excess=0.16
+    ('delete', 2)                nu: 0.075  sumC+: 0.130  excess=0.25
+    ('delete', 3)                nu: 0.103  sumC+: 0.155  excess=0.34
+    ('delete', 4)                nu: 0.145  sumC+: 0.188  excess=0.49
+    ('delete', 6)                nu: 0.254  sumC+: 0.283  excess=0.97
+    ('add', 1)                   nu: 0.060  sumC+: 1.000  excess=0.16
+    ('add', 2)                   nu: 0.093  sumC+: 1.000  excess=0.26
+    ('add', 3)                   nu: 0.123  sumC+: 1.000  excess=0.38
+    ('add', 4)                   nu: 0.161  sumC+: 1.000  excess=0.55
+    ('add', 6)                   nu: 0.260  sumC+: 1.000  excess=1.02
+    ('subst', 1)                 nu: 0.095  sumC+: 1.000  excess=0.29
+    ('subst', 2)                 nu: 0.215  sumC+: 1.000  excess=0.78
+    ('subst', 3)                 nu: 0.439  sumC+: 1.000  excess=2.07
+    ('subst', 4)                 nu: 0.730  sumC+: 1.000  excess=5.56
+    ('subst', 6)                 nu: 0.997  sumC+: 1.000  excess=28.75
+    ('subst', 9)                 nu: 1.000  sumC+: 1.000  excess=130.90
+    ('subst', 12)                nu: 1.000  sumC+: 1.000  excess=206.53
+    ('learned', 0)               nu: 0.032  sumC+: 0.098  excess=0.08
+    ('heldout', '0.00-0.50')     nu: nan  sumC+: nan  n=0
+    ('heldout', '0.50-0.65')     nu: 1.000  sumC+: 1.000  n=36
+    ('heldout', '0.65-0.80')     nu: 0.975  sumC+: 1.000  n=32
+    ('heldout', '0.80-1.00')     nu: 0.433  sumC+: 1.000  n=4
+  ('B', 10, 0.2, 'error-count shuffled')
+    ('delete', 1)                nu: 0.175  sumC+: 0.241  excess=0.45
+    ('delete', 2)                nu: 0.186  sumC+: 0.243  excess=0.49
+    ('delete', 3)                nu: 0.196  sumC+: 0.248  excess=0.53
+    ('delete', 4)                nu: 0.200  sumC+: 0.239  excess=0.57
+    ('delete', 6)                nu: 0.209  sumC+: 0.228  excess=0.71
+    ('add', 1)                   nu: 0.323  sumC+: 0.998  excess=0.69
+    ('add', 2)                   nu: 0.434  sumC+: 1.000  excess=0.99
+    ('add', 3)                   nu: 0.537  sumC+: 1.000  excess=1.31
+    ('add', 4)                   nu: 0.612  sumC+: 1.000  excess=1.67
+    ('add', 6)                   nu: 0.728  sumC+: 1.000  excess=2.49
+    ('subst', 1)                 nu: 0.352  sumC+: 0.998  excess=0.80
+    ('subst', 2)                 nu: 0.535  sumC+: 1.000  excess=1.39
+    ('subst', 3)                 nu: 0.721  sumC+: 1.000  excess=2.57
+    ('subst', 4)                 nu: 0.874  sumC+: 1.000  excess=4.91
+    ('subst', 6)                 nu: 0.996  sumC+: 1.000  excess=18.01
+    ('subst', 9)                 nu: 1.000  sumC+: 1.000  excess=109.28
+    ('subst', 12)                nu: 1.000  sumC+: 1.000  excess=197.37
+    ('learned', 0)               nu: 0.155  sumC+: 0.236  excess=0.43
+    ('heldout', '0.00-0.50')     nu: nan  sumC+: nan  n=0
+    ('heldout', '0.50-0.65')     nu: 0.999  sumC+: 1.000  n=36
+    ('heldout', '0.65-0.80')     nu: 0.986  sumC+: 0.999  n=32
+    ('heldout', '0.80-1.00')     nu: 0.750  sumC+: 1.000  n=4
+  ('B', 10, 0.2, 'error count')
+    ('delete', 1)                nu: 0.044  sumC+: 0.054  excess=0.08
+    ('delete', 2)                nu: 0.065  sumC+: 0.077  excess=0.13
+    ('delete', 3)                nu: 0.094  sumC+: 0.109  excess=0.20
+    ('delete', 4)                nu: 0.129  sumC+: 0.150  excess=0.29
+    ('delete', 6)                nu: 0.233  sumC+: 0.256  excess=0.68
+    ('add', 1)                   nu: 0.063  sumC+: 1.000  excess=0.11
+    ('add', 2)                   nu: 0.098  sumC+: 1.000  excess=0.18
+    ('add', 3)                   nu: 0.139  sumC+: 1.000  excess=0.26
+    ('add', 4)                   nu: 0.185  sumC+: 1.000  excess=0.40
+    ('add', 6)                   nu: 0.286  sumC+: 1.000  excess=0.79
+    ('subst', 1)                 nu: 0.101  sumC+: 1.000  excess=0.19
+    ('subst', 2)                 nu: 0.224  sumC+: 1.000  excess=0.53
+    ('subst', 3)                 nu: 0.459  sumC+: 1.000  excess=1.63
+    ('subst', 4)                 nu: 0.742  sumC+: 1.000  excess=4.73
+    ('subst', 6)                 nu: 0.996  sumC+: 1.000  excess=25.91
+    ('subst', 9)                 nu: 0.999  sumC+: 1.000  excess=121.92
+    ('subst', 12)                nu: 1.000  sumC+: 1.000  excess=196.99
+    ('learned', 0)               nu: 0.022  sumC+: 0.029  excess=0.04
+    ('heldout', '0.00-0.50')     nu: nan  sumC+: nan  n=0
+    ('heldout', '0.50-0.65')     nu: 1.000  sumC+: 1.000  n=36
+    ('heldout', '0.65-0.80')     nu: 0.984  sumC+: 1.000  n=32
+    ('heldout', '0.80-1.00')     nu: 0.408  sumC+: 1.000  n=4
+  ('B', 10, 0.2, 'none')
+    ('delete', 1)                nu: 0.683  sumC+: 0.864  excess=2.44
+    ('delete', 2)                nu: 0.699  sumC+: 0.854  excess=2.61
+    ('delete', 3)                nu: 0.697  sumC+: 0.828  excess=2.82
+    ('delete', 4)                nu: 0.688  sumC+: 0.796  excess=3.07
+    ('delete', 6)                nu: 0.609  sumC+: 0.672  excess=3.80
+    ('add', 1)                   nu: 0.756  sumC+: 0.995  excess=3.32
+    ('add', 2)                   nu: 0.846  sumC+: 1.000  excess=5.23
+    ('add', 3)                   nu: 0.910  sumC+: 1.000  excess=8.85
+    ('add', 4)                   nu: 0.945  sumC+: 1.000  excess=15.55
+    ('add', 6)                   nu: 0.980  sumC+: 1.000  excess=41.46
+    ('subst', 1)                 nu: 0.812  sumC+: 0.993  excess=3.91
+    ('subst', 2)                 nu: 0.915  sumC+: 0.999  excess=9.23
+    ('subst', 3)                 nu: 0.968  sumC+: 1.000  excess=26.26
+    ('subst', 4)                 nu: 0.989  sumC+: 1.000  excess=64.27
+    ('subst', 6)                 nu: 0.999  sumC+: 1.000  excess=191.36
+    ('subst', 9)                 nu: 1.000  sumC+: 1.000  excess=320.55
+    ('subst', 12)                nu: 1.000  sumC+: 1.000  excess=355.73
+    ('learned', 0)               nu: 0.646  sumC+: 0.864  excess=2.22
+    ('heldout', '0.00-0.50')     nu: nan  sumC+: nan  n=0
+    ('heldout', '0.50-0.65')     nu: 0.957  sumC+: 0.997  n=36
+    ('heldout', '0.65-0.80')     nu: 0.917  sumC+: 0.984  n=32
+    ('heldout', '0.80-1.00')     nu: 0.933  sumC+: 0.983  n=4
+  ('B', 10, 0.2, 'every step')
+    ('delete', 1)                nu: 0.025  sumC+: 0.027  excess=0.05
+    ('delete', 2)                nu: 0.041  sumC+: 0.045  excess=0.08
+    ('delete', 3)                nu: 0.059  sumC+: 0.066  excess=0.13
+    ('delete', 4)                nu: 0.094  sumC+: 0.101  excess=0.24
+    ('delete', 6)                nu: 0.162  sumC+: 0.172  excess=0.48
+    ('add', 1)                   nu: 0.095  sumC+: 0.998  excess=0.13
+    ('add', 2)                   nu: 0.159  sumC+: 1.000  excess=0.24
+    ('add', 3)                   nu: 0.222  sumC+: 1.000  excess=0.35
+    ('add', 4)                   nu: 0.280  sumC+: 1.000  excess=0.50
+    ('add', 6)                   nu: 0.378  sumC+: 1.000  excess=0.83
+    ('subst', 1)                 nu: 0.125  sumC+: 0.997  excess=0.19
+    ('subst', 2)                 nu: 0.277  sumC+: 1.000  excess=0.54
+    ('subst', 3)                 nu: 0.487  sumC+: 1.000  excess=1.40
+    ('subst', 4)                 nu: 0.737  sumC+: 1.000  excess=3.62
+    ('subst', 6)                 nu: 0.991  sumC+: 1.000  excess=18.04
+    ('subst', 9)                 nu: 0.999  sumC+: 1.000  excess=96.04
+    ('subst', 12)                nu: 0.999  sumC+: 1.000  excess=172.38
+    ('learned', 0)               nu: 0.014  sumC+: 0.016  excess=0.03
+    ('heldout', '0.00-0.50')     nu: nan  sumC+: nan  n=0
+    ('heldout', '0.50-0.65')     nu: 1.000  sumC+: 1.000  n=36
+    ('heldout', '0.65-0.80')     nu: 0.957  sumC+: 1.000  n=32
+    ('heldout', '0.80-1.00')     nu: 0.417  sumC+: 1.000  n=4
+  ('B', 10, 0.2, 'novelty+gain')
+    ('delete', 1)                nu: 0.084  sumC+: 0.164  excess=0.26
+    ('delete', 2)                nu: 0.104  sumC+: 0.176  excess=0.35
+    ('delete', 3)                nu: 0.124  sumC+: 0.189  excess=0.44
+    ('delete', 4)                nu: 0.153  sumC+: 0.206  excess=0.56
+    ('delete', 6)                nu: 0.182  sumC+: 0.210  excess=0.71
+    ('add', 1)                   nu: 0.097  sumC+: 0.999  excess=0.27
+    ('add', 2)                   nu: 0.136  sumC+: 1.000  excess=0.38
+    ('add', 3)                   nu: 0.180  sumC+: 1.000  excess=0.57
+    ('add', 4)                   nu: 0.222  sumC+: 1.000  excess=0.73
+    ('add', 6)                   nu: 0.313  sumC+: 1.000  excess=1.29
+    ('subst', 1)                 nu: 0.144  sumC+: 0.999  excess=0.43
+    ('subst', 2)                 nu: 0.273  sumC+: 1.000  excess=0.94
+    ('subst', 3)                 nu: 0.449  sumC+: 1.000  excess=1.90
+    ('subst', 4)                 nu: 0.681  sumC+: 1.000  excess=3.98
+    ('subst', 6)                 nu: 0.981  sumC+: 1.000  excess=14.99
+    ('subst', 9)                 nu: 0.997  sumC+: 1.000  excess=91.16
+    ('subst', 12)                nu: 0.999  sumC+: 1.000  excess=181.18
+    ('learned', 0)               nu: 0.056  sumC+: 0.144  excess=0.17
+    ('heldout', '0.00-0.50')     nu: nan  sumC+: nan  n=0
+    ('heldout', '0.50-0.65')     nu: 1.000  sumC+: 1.000  n=36
+    ('heldout', '0.65-0.80')     nu: 0.971  sumC+: 1.000  n=32
+    ('heldout', '0.80-1.00')     nu: 0.483  sumC+: 1.000  n=4

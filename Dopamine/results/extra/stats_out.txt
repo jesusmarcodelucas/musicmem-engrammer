@@ -1,0 +1,94 @@
+== TOY c0 l0.2 t8, n = 20
+ signal by category (excess units, surprise): {'familiar': (np.float64(7.15), np.float64(20.0)), 'stochastic': (np.float64(4.36), np.float64(38.9)), 'reset': (np.float64(4.97), np.float64(51.2)), 'rewired': (np.float64(4.78), np.float64(17.5)), 'new 1st': (np.float64(116.06), np.float64(50.6)), 'new later': (np.float64(8.89), np.float64(18.0)), 'one-off': (np.float64(139.84), np.float64(51.2))}
+ AUC nu +0.999 [+0.998,+0.999] AUC S +0.886 [+0.872,+0.899]
+ fam_any 0.689 fam_thr 0.026 second visit 8.89
+  probe share 0%: median active 134, identified 0.00
+  probe share 10%: median active 134, identified 0.00
+  probe share 20%: median active 132, identified 0.00
+  probe share 30%: median active 119, identified 0.00
+  probe share 40%: median active 95, identified 0.00
+  probe share 50%: median active 43, identified 0.05
+  probe share 60%: median active 11, identified 0.24
+  probe share 70%: median active 6, identified 0.42
+  probe share 80%: median active 5, identified 0.56
+  none              collide=0.297 parent_stab=0.814 old_stab=0.838 pred_new=0.301 pred_old=0.198 pred_rew=0.239 n_trig=0.000
+  plast_only        collide=0.193 parent_stab=0.795 old_stab=0.815 pred_new=0.305 pred_old=0.212 pred_rew=0.274 n_trig=218.400
+  alloc_only        collide=0.090 parent_stab=0.799 old_stab=0.823 pred_new=0.346 pred_old=0.175 pred_rew=0.248 n_trig=418.750
+  full              collide=0.020 parent_stab=0.757 old_stab=0.774 pred_new=0.269 pred_old=0.173 pred_rew=0.257 n_trig=140.950
+  shuf              collide=0.203 parent_stab=0.682 old_stab=0.703 pred_new=0.357 pred_old=0.231 pred_rew=0.304 n_trig=140.950
+  S_matched         collide=0.180 parent_stab=0.640 old_stab=0.668 pred_new=0.335 pred_old=0.223 pred_rew=0.304 n_trig=140.950
+  S_online          collide=0.230 parent_stab=0.584 old_stab=0.612 pred_new=0.368 pred_old=0.281 pred_rew=0.345 n_trig=473.550
+  oracle            collide=0.087 parent_stab=0.810 old_stab=0.837 pred_new=0.270 pred_old=0.197 pred_rew=0.253 n_trig=60.150
+  always            collide=0.047 parent_stab=0.423 old_stab=0.467 pred_new=0.607 pred_old=0.628 pred_rew=0.601 n_trig=9000.000
+  fixed_alloc_only  collide=0.243 parent_stab=0.812 old_stab=0.834 pred_new=0.315 pred_old=0.186 pred_rew=0.244 n_trig=140.950
+  fixed_gain_only   collide=0.240 parent_stab=0.803 old_stab=0.824 pred_new=0.295 pred_old=0.220 pred_rew=0.272 n_trig=140.950
+  E2                collide=0.050 parent_stab=0.419 old_stab=0.465 pred_new=0.605 pred_old=0.640 pred_rew=0.618 n_trig=8531.500
+  E4                collide=0.047 parent_stab=0.411 old_stab=0.449 pred_new=0.616 pred_old=0.657 pred_rew=0.637 n_trig=6583.450
+  E8                collide=0.067 parent_stab=0.389 old_stab=0.421 pred_new=0.556 pred_old=0.574 pred_rew=0.568 n_trig=1647.700
+  full-none: collide=-0.277 [-0.327,-0.227] parent_stab=-0.057 [-0.074,-0.041] pred_new=-0.033 [-0.043,-0.024] pred_old=-0.025 [-0.044,-0.006]
+  full-shuf: collide=-0.183 [-0.230,-0.137] parent_stab=+0.075 [+0.049,+0.100] pred_new=-0.088 [-0.102,-0.075] pred_old=-0.058 [-0.070,-0.046]
+  full-S_matched: collide=-0.160 [-0.210,-0.110] parent_stab=+0.116 [+0.085,+0.149] pred_new=-0.066 [-0.077,-0.056] pred_old=-0.050 [-0.070,-0.031]
+  full-oracle: collide=-0.067 [-0.100,-0.033] parent_stab=-0.053 [-0.068,-0.038] pred_new=-0.002 [-0.010,+0.005] pred_old=-0.024 [-0.036,-0.011]
+  full-always: collide=-0.027 [-0.053,-0.000] parent_stab=+0.333 [+0.295,+0.372] pred_new=-0.338 [-0.356,-0.321] pred_old=-0.455 [-0.482,-0.431]
+  full-fixed_alloc_only: collide=-0.223 [-0.290,-0.163] parent_stab=-0.055 [-0.073,-0.039] pred_new=-0.047 [-0.058,-0.036] pred_old=-0.013 [-0.029,+0.002]
+  full-fixed_gain_only: collide=-0.220 [-0.263,-0.180] parent_stab=-0.046 [-0.063,-0.032] pred_new=-0.027 [-0.035,-0.019] pred_old=-0.047 [-0.065,-0.029]
+  full-E8: collide=-0.047 [-0.077,-0.017] parent_stab=+0.368 [+0.331,+0.406] pred_new=-0.288 [-0.307,-0.269] pred_old=-0.401 [-0.429,-0.375]
+  full-S_online: collide=-0.210 [-0.253,-0.167] parent_stab=+0.172 [+0.122,+0.226] pred_new=-0.099 [-0.112,-0.087] pred_old=-0.108 [-0.136,-0.083]
+== MNIST c0 l0.2 t1, seeds [2, 3, 4, 5, 6, 7, 8, 9, 10, 11]
+ 1000 strict: none=0.193(trig 0.00, forg 0.94) always_a=0.773(trig 1.00, forg 0.21) shuf_a=0.760(trig 0.61, forg 0.23) alloc=0.741(trig 0.61, forg 0.25) full=0.723(trig 0.27, forg 0.29)
+    alloc-none: +0.548 [+0.541,+0.557]
+    alloc-always_a: -0.032 [-0.042,-0.019]
+    alloc-shuf_a: -0.019 [-0.032,-0.004]
+    t2 file E2_a: 0.732 trig 0.86    t2 file E5_a: 0.726 trig 0.61    t2 file E10_a: 0.763 trig 0.29   | t2 novelty 0.682 trig 0.36
+ 1000 recurring: none=0.586(trig 0.00, forg 0.31) always_a=0.798(trig 1.00, forg 0.10) shuf_a=0.805(trig 0.56, forg 0.10) alloc=0.847(trig 0.56, forg 0.06) full=0.827(trig 0.24, forg 0.10)
+    alloc-none: +0.260 [+0.237,+0.289]
+    alloc-always_a: +0.049 [+0.045,+0.053]
+    alloc-shuf_a: +0.041 [+0.034,+0.048]
+    t2 file E2_a: 0.821 trig 0.80    t2 file E5_a: 0.843 trig 0.57    t2 file E10_a: 0.866 trig 0.28   | t2 novelty 0.883 trig 0.33
+ 2000 strict: none=0.190(trig 0.00, forg 0.95) err_a=0.486(trig 0.09, forg 0.60) always_a=0.863(trig 1.00, forg 0.07) shuf_a=0.894(trig 0.67, forg 0.05) alloc=0.843(trig 0.67, forg 0.12) full=0.789(trig 0.23, forg 0.22)
+    alloc-none: +0.652 [+0.630,+0.676]
+    alloc-always_a: -0.021 [-0.041,+0.000]
+    alloc-shuf_a: -0.051 [-0.067,-0.034]
+    t2 file E2_a: 0.866 trig 0.88    t2 file E5_a: 0.891 trig 0.68    t2 file E10_a: 0.881 trig 0.37   | t2 novelty 0.725 trig 0.41
+ 2000 recurring: none=0.616(trig 0.00, forg 0.29) always_a=0.838(trig 1.00, forg 0.04) shuf_a=0.864(trig 0.60, forg 0.03) alloc=0.877(trig 0.60, forg 0.02) full=0.844(trig 0.21, forg 0.09)
+    alloc-none: +0.261 [+0.221,+0.300]
+    alloc-always_a: +0.038 [+0.030,+0.046]
+    alloc-shuf_a: +0.013 [+0.007,+0.018]
+    t2 file E2_a: 0.863 trig 0.79    t2 file E5_a: 0.869 trig 0.61    t2 file E10_a: 0.903 trig 0.35   | t2 novelty 0.904 trig 0.38
+  2000 strict err_a: 0.486
+  2000 strict replay: 0.648
+  2000 strict always_a+replay: 0.852
+  2000 strict shuf_a+replay: 0.893
+  2000 strict alloc+replay: 0.902
+    alloc+replay-replay: +0.254 [+0.241,+0.267]
+    alloc+replay-always_a+replay: +0.050 [+0.046,+0.054]
+    alloc+replay-shuf_a+replay: +0.009 [+0.006,+0.013]
+  iid none/alloc/full [np.float64(0.681), np.float64(0.902), np.float64(0.839)]
+  used units {'none': 64, 'alloc': 2000, 'always_a': 2000}
+Traceback (most recent call last):
+  File "/home/claude/v081/stats.py", line 50, in <module>
+    from bench import TASKS
+ModuleNotFoundError: No module named 'bench'
+== rec1000
+ blk1 new mean nuk=11.4 trig=0.30 
+ blk2 new mean nuk=39.6 trig=0.87 old mean=13.5 trig=0.40
+ blk3 new mean nuk=32.8 trig=0.73 old mean=19.6 trig=0.58
+ blk4 new mean nuk=18.7 trig=0.60 old mean=18.9 trig=0.60
+ blk5 new mean nuk=23.7 trig=0.69 old mean=16.2 trig=0.53
+  blk 2 first100/last100 trig [0.93 0.85]
+  blk 5 first100/last100 trig [0.81 0.65]
+== strict2000_replay
+ blk1 new mean nuk=12.3 trig=0.29 
+ blk2 new mean nuk=37.1 trig=0.87 
+ blk3 new mean nuk=34.9 trig=0.78 
+ blk4 new mean nuk=21.1 trig=0.57 
+ blk5 new mean nuk=26.5 trig=0.69 
+ replay mean 6.4 trig 0.18
+  blk 2 first100/last100 trig [0.92 0.85]
+  blk 5 first100/last100 trig [0.81 0.61]
+n seeds 20 [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]
+E fam mean 7.3 median 7 p>8 0.267 p>4 0.796 p>12 0.086
+E new first [11.   15.95 18.   20.  ] one-off [14. 20. 20.]
+auc E 0.990 auc N 0.9985
+N fam >40 0.026275277415939314
+[0.98876433 0.99048517]
